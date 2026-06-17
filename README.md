@@ -152,6 +152,85 @@ The project includes 15 SQL queries to answer key business questions:
 
 ---
 
+## Business Questions and Insights
+
+This project answers the following important business questions using SQL analysis:
+
+### 1. How many food providers are there in each city?
+
+This helps identify cities with a higher number of food providers. It is useful for understanding where food supply is stronger.
+
+### 2. How many receivers are there in each city?
+
+This helps identify locations where receivers such as NGOs, shelters, charities, and individuals are present. It supports better planning of food distribution.
+
+### 3. Which type of food provider contributes the most food?
+
+This query compares provider types such as restaurants, supermarkets, grocery stores, and catering services. It helps identify which provider category contributes the highest food quantity.
+
+### 4. What is the contact information of food providers in a specific city?
+
+This helps receivers or NGOs directly contact food providers in a selected city for food collection and coordination.
+
+### 5. Which receivers have claimed the most food?
+
+This identifies the most active receivers in the system. It helps understand which organizations or individuals are using the platform frequently.
+
+### 6. What is the total quantity of food available?
+
+This gives the total available surplus food quantity in the system. It provides an overall view of food availability.
+
+### 7. Which location has the highest number of food listings?
+
+This helps identify areas where surplus food is most available. These locations can be prioritized for food collection and redistribution.
+
+### 8. What are the most commonly available food types?
+
+This shows whether vegetarian, non-vegetarian, or vegan food is more commonly available. It helps receivers search based on food preference or requirement.
+
+### 9. How many food claims have been made for each food item?
+
+This shows which food items are claimed more frequently. It helps understand demand for different food items.
+
+### 10. Which provider has the highest number of successful food claims?
+
+This identifies providers whose food listings are successfully claimed more often. It helps recognize active and reliable food contributors.
+
+### 11. What percentage of claims are completed, pending, and cancelled?
+
+This helps evaluate the claim process. A higher completed percentage indicates better food redistribution efficiency.
+
+### 12. What is the average quantity of food claimed per receiver?
+
+This shows how much food receivers claim on average. It helps identify receivers with higher food requirements.
+
+### 13. Which meal type is claimed the most?
+
+This identifies whether breakfast, lunch, dinner, or snacks are claimed most frequently. It helps understand demand based on meal type.
+
+### 14. What is the total quantity of food donated by each provider?
+
+This helps identify top food donors based on total food quantity contributed.
+
+### 15. Which food items are near expiry?
+
+This helps identify food items that should be distributed quickly to avoid wastage.
+
+---
+
+## Key Insights
+
+Based on the SQL analysis and EDA visualizations, the project provides the following insights:
+
+- Food availability can be analyzed location-wise using provider and food listing data.
+- Provider types such as restaurants, supermarkets, grocery stores, and catering services contribute differently to the total food quantity.
+- Claim status analysis helps understand how many claims are completed, pending, or cancelled.
+- Food type and meal type analysis helps understand the kind of food most commonly available and claimed.
+- Near-expiry food analysis helps prioritize urgent redistribution.
+- Receiver claim analysis helps identify active receivers and organizations.
+- The Streamlit application makes the system interactive by allowing users to filter data, view provider contacts, analyze SQL outputs, view charts, and manage food listings using CRUD operations.
+---
+
 ## EDA Visualizations
 
 The following visualizations were created:
